@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SmartElec</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="action_settings">Settings</string>
+</resources>

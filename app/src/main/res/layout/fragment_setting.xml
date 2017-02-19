@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textSize="40sp"
+        android:id="@+id/textViewId"
+        android:text="Capping Upto Unit:" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBarId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:id="@+id/view_unitId" />
+
+    <Button
+        android:text="Buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_unitId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:id="@+id/buttonId" />
+
+    <SeekBar
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:max="1000"
+        android:maxWidth="1000dp"
+        android:id="@+id/seekBarId"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/textViewId"
+        android:layout_alignStart="@+id/textViewId" />
+
+</RelativeLayout>

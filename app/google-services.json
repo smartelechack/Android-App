@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "541984509371",
+    "firebase_url": "https://smartelec-f49da.firebaseio.com",
+    "project_id": "smartelec-f49da",
+    "storage_bucket": "smartelec-f49da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541984509371:android:c278468c7871ca9d",
+        "android_client_info": {
+          "package_name": "com.example.smartelec.smartelec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541984509371-0380os0hvvmhi4rg3iio726vnv67eauj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpQZ1wzVq0gg4fig86jtR4wWyvG8t2ysI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffd306">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textSize="40sp"
+        android:id="@+id/textView"
+        android:text="Choose Units:" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:id="@+id/view_unit" />
+
+    <Button
+        android:text="Buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_unit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:id="@+id/button" />
+
+    <SeekBar
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:max="200"
+        android:maxWidth="200dp"
+        android:id="@+id/seekBar"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+</RelativeLayout>
